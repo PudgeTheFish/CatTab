@@ -1,6 +1,6 @@
 {
   "name": "CustomTab",
   "chrome_url_overrides" : {
-    "newTab": "TabPage.html"
+    "newTab": "index.html"
   }
 }
