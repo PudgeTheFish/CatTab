@@ -6,6 +6,7 @@ $.ajax({
     success: function (json){
         for(var i in json.posts) {
             var img = document.createElement("IMG");
+            img.classList.add("column");
             img.src = json.posts[i].display_url;
             picOutput = document.getElementById("instaPics");
             picOutput.appendChild(img);

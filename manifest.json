@@ -1,5 +1,5 @@
 {
-  "name": "CustomTab",
+  "name": "Cat Tab",
   "chrome_url_overrides" : {
     "newTab": "index.html"
   }
