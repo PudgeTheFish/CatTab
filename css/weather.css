@@ -33,7 +33,12 @@ div.aw-widget-36hour-inner div.aw-more-block#aw-crowdy-widget {
     display: none
 }
 
-.aw-widget-36hour .bg-su, .aw-widget-36hour .tbg-su, .aw-widget-current .bg-su, .aw-widget-current .tbg-su {
+.aw-widget-36hour .bg-su, .aw-widget-36hour .tbg-su, .aw-widget-current .bg-su, .aw-widget-current .tbg-su,
+.aw-widget-current .bg-c, .aw-widget-current .tbg-c, .aw-widget-current .bg-f, .aw-widget-current .tbg-f,
+.aw-widget-current .bg-t, .aw-widget-current .tbg-t, .aw-widget-current .bg-r, .aw-widget-current .tbg-r,
+.aw-widget-current .bg-cl, .aw-widget-current .tbg-cl, .aw-widget-current .bg-s, .aw-widget-current .tbg-s {
+
+    /*
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZjYjJmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUyJSIgc3RvcC1jb2xvcj0iI2Q2ZTlmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZmNlZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDZlOWZlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q2ZTlmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2MjljZTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top, #6cb2fc 0, #d6e9fe 52%, #7fceff 100%, #d6e9fe 100%, #d6e9fe 100%, #629ce9 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6cb2fc), color-stop(52%, #d6e9fe), color-stop(100%, #7fceff), color-stop(100%, #d6e9fe), color-stop(100%, #d6e9fe), color-stop(100%, #629ce9));
@@ -41,7 +46,9 @@ div.aw-widget-36hour-inner div.aw-more-block#aw-crowdy-widget {
     background: -o-linear-gradient(top, #6cb2fc 0, #d6e9fe 52%, #7fceff 100%, #d6e9fe 100%, #d6e9fe 100%, #629ce9 100%);
     background: -ms-linear-gradient(top, #6cb2fc 0, #d6e9fe 52%, #7fceff 100%, #d6e9fe 100%, #d6e9fe 100%, #629ce9 100%);
     background: linear-gradient(to bottom, #6cb2fc 0, #d6e9fe 52%, #7fceff 100%, #d6e9fe 100%, #d6e9fe 100%, #629ce9 100%)
+    */
 }
+/*
 
 .aw-widget-36hour .bg-c, .aw-widget-36hour .tbg-c, .aw-widget-current .bg-c, .aw-widget-current .tbg-c {
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QwZGFlOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2VmZjZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5ZmMyZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -84,13 +91,15 @@ div.aw-widget-36hour-inner div.aw-more-block#aw-crowdy-widget {
 }
 
 .aw-widget-36hour .bg-cl, .aw-widget-36hour .tbg-cl, .aw-widget-current .bg-cl, .aw-widget-current .tbg-cl {
+    background: #0a0a0a;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iIzJjMzg2MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZDI3NGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top, #141414 0, #2c3863 40%, #1d274f 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #141414), color-stop(40%, #2c3863), color-stop(100%, #1d274f));
-    background: -webkit-linear-gradient(top, #141414 0, #2c3863 40%, #1d274f 100%);
-    background: -o-linear-gradient(top, #141414 0, #2c3863 40%, #1d274f 100%);
-    background: -ms-linear-gradient(top, #141414 0, #2c3863 40%, #1d274f 100%);
-    background: linear-gradient(to bottom, #141414 0, #2c3863 40%, #1d274f 100%)
+    background: -moz-linear-gradient(top, #b0221d 0, #2c3863 40%, #1d274f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b0221d), color-stop(40%, #2c3863), color-stop(100%, #1d274f));
+    background: -webkit-linear-gradient(top, #b0221d 0, #2c3863 40%, #1d274f 100%);
+    background: -o-linear-gradient(top, #b0221d 0, #2c3863 40%, #1d274f 100%);
+    background: -ms-linear-gradient(top, #b0221d 0, #2c3863 40%, #1d274f 100%);
+    background: linear-gradient(to bottom, #b0221d 0, #2c3863 40%, #1d274f 100%)
+
 }
 
 .aw-widget-36hour .bg-s, .aw-widget-36hour .tbg-s, .aw-widget-current .bg-s, .aw-widget-current .tbg-s {
@@ -102,6 +111,7 @@ div.aw-widget-36hour-inner div.aw-more-block#aw-crowdy-widget {
     background: -ms-linear-gradient(top, #141414 0, #4f4f54 40%, #26292d 100%);
     background: linear-gradient(to bottom, #141414 0, #4f4f54 40%, #26292d 100%)
 }
+*/
 
 .aw-widget-36hour img, .icon-only .aw-widget-current .bg-c, .icon-only .aw-widget-current .bg-cl, .icon-only .aw-widget-current .bg-f, .icon-only .aw-widget-current .bg-r, .icon-only .aw-widget-current .bg-s, .icon-only .aw-widget-current .bg-su, .icon-only .aw-widget-current .bg-t, .icon-only .aw-widget-current .tbg-c, .icon-only .aw-widget-current .tbg-cl, .icon-only .aw-widget-current .tbg-f, .icon-only .aw-widget-current .tbg-r, .icon-only .aw-widget-current .tbg-s, .icon-only .aw-widget-current .tbg-su, .icon-only .aw-widget-current .tbg-t {
     background: 0 0 !important
@@ -723,7 +733,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header a.aw-get-this-wid
     border-radius: 3px;
     background-color: #4769ba;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#617dc0), to(#4769ba));
     background-image: -moz-linear-gradient(#617dc0, #4769ba);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #617dc0), color-stop(100%, #4769ba));
     background-image: -webkit-linear-gradient(#617dc0, #4769ba);
@@ -771,7 +780,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header a.aw-get-this-wid
 div.aw-widget-36hour-inner div.aw-widget-content div.aw-header a.aw-get-this-widget:hover {
     background-color: #4769ba;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#7994d3), to(#4769ba));
     background-image: -moz-linear-gradient(#7994d3, #4769ba);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7994d3), color-stop(100%, #4769ba));
     background-image: -webkit-linear-gradient(#7994d3, #4769ba);
@@ -872,7 +880,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-search.aw-
     width: 70% !important;
     width: -moz-calc(100% - 88px) !important;
     width: -webkit-calc(100% - 88px) !important;
-    width: -o-calc(100% - 88px) !important;
     width: calc(100% - 88px) !important
 }
 
@@ -880,7 +887,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-search.aw-
     width: 65% !important;
     width: -moz-calc(100% - 105px) !important;
     width: -webkit-calc(100% - 105px) !important;
-    width: -o-calc(100% - 105px) !important;
     width: calc(100% - 105px) !important
 }
 
@@ -929,7 +935,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-search inp
     width: 75% !important;
     width: -moz-calc(100% - 36px) !important;
     width: -webkit-calc(100% - 36px) !important;
-    width: -o-calc(100% - 36px) !important;
     width: calc(100% - 36px) !important
 }
 
@@ -995,7 +1000,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-temp-unit 
 div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-temp-unit ul li a {
     background-color: #6f85b4;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#879dc6), to(#6f85b4));
     background-image: -moz-linear-gradient(#879dc6, #6f85b4);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #879dc6), color-stop(100%, #6f85b4));
     background-image: -webkit-linear-gradient(#879dc6, #6f85b4);
@@ -1015,7 +1019,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-temp-unit 
 div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-temp-unit ul li a:hover {
     background-color: #8093bd;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#98abce), to(#8093bd));
     background-image: -moz-linear-gradient(#98abce, #8093bd);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #98abce), color-stop(100%, #8093bd));
     background-image: -webkit-linear-gradient(#98abce, #8093bd);
@@ -1041,7 +1044,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-temp-unit 
 div.aw-widget-36hour-inner div.aw-widget-content div.aw-header div.aw-temp-unit ul li.current a {
     background-color: #5068a1;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#475c8f), to(#5068a1));
     background-image: -moz-linear-gradient(#475c8f, #5068a1);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #475c8f), color-stop(100%, #5068a1));
     background-image: -webkit-linear-gradient(#475c8f, #5068a1);
@@ -1086,7 +1088,7 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li.night a, div
 }
 
 div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li a .aw-bg {
-    border: 1px solid #e8e8e8 !important;
+    /*border: 1px solid #e8e8e8 !important;*/
     border-bottom: none !important;
     padding: 10px 14px !important;
     zoom: 100%
@@ -1138,7 +1140,7 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li h3 {
     font-size: 1.3em !important
 }
 
-,
+
 div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li.night .aw-bg, div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li.night .aw-bg h3, div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li.night .aw-bg p, div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours li.night .aw-bg span {
     color: #FFF !important
 }
@@ -1243,7 +1245,6 @@ div.aw-widget-36hour-inner div.aw-widget-content div.aw-36-hours span.aw-day-det
     border-radius: 0 0 3px 3px;
     background-color: #c4c4c4;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#eee), to(#c4c4c4));
     background-image: -moz-linear-gradient(#eee, #c4c4c4);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(100%, #c4c4c4));
     background-image: -webkit-linear-gradient(#eee, #c4c4c4);
@@ -1399,7 +1400,6 @@ div.aw-widget-36hour-inner div.aw-six-hours .aw-time-bubble b i {
     width: 62%;
     width: -moz-calc(100% - 320px);
     width: -webkit-calc(100% - 320px);
-    width: -o-calc(100% - 320px);
     width: calc(100% - 320px)
 }
 
@@ -1407,7 +1407,6 @@ div.aw-widget-36hour-inner div.aw-six-hours .aw-time-bubble b i {
     width: 60%;
     width: -moz-calc(100% - 320px);
     width: -webkit-calc(100% - 320px);
-    width: -o-calc(100% - 320px);
     width: calc(100% - 320px)
 }
 
@@ -1548,7 +1547,7 @@ div.aw-widget-36hour-inner div.aw-six-hours ul li div.aw-bg span.aw-six-hours-pr
     width: 21px !important
 }
 
-div.aw-widget-36hour-inner div.aw-six-hours ul li::last-child {
+div.aw-widget-36hour-inner div.aw-six-hours ul li:last-child {
     border-right: 1px solid #d0d0d0 !important
 }
 
@@ -1566,7 +1565,6 @@ div.aw-widget-36hour-inner a.aw-current-weather div.aw-interest, div.aw-widget-3
 div.aw-widget-36hour-inner a.aw-current-weather div.aw-interest {
     background-color: #4d87b4;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#5f93bc), to(#4d87b4));
     background-image: -moz-linear-gradient(#5f93bc, #4d87b4);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5f93bc), color-stop(100%, #4d87b4));
     background-image: -webkit-linear-gradient(#5f93bc, #4d87b4);
@@ -1769,7 +1767,6 @@ div.aw-widget-36hour-inner a.aw-current-weather div.aw-interest p b, div.aw-widg
 div.aw-widget-36hour-inner div.aw-36-hours li div.aw-interest {
     background-color: #5e974e;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#69a857), to(#5e974e));
     background-image: -moz-linear-gradient(#69a857, #5e974e);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #69a857), color-stop(100%, #5e974e));
     background-image: -webkit-linear-gradient(#69a857, #5e974e);
@@ -1800,7 +1797,6 @@ div.aw-widget-36hour-inner div.aw-36-hours li div.aw-interest.idx-airquality.cat
 div.aw-widget-36hour-inner a.aw-current-weather div.aw-interest.aw-severe, div.aw-widget-36hour-inner div.aw-36-hours li div.aw-interest.aw-severe {
     background-color: #bd340d;
     background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#d53a0f), to(#bd340d));
     background-image: -moz-linear-gradient(#d53a0f, #bd340d);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d53a0f), color-stop(100%, #bd340d));
     background-image: -webkit-linear-gradient(#d53a0f, #bd340d);
@@ -2083,7 +2079,7 @@ div.aw-widget-36hour-inner div.aw-alert-info .aw-alert-info-icon {
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather div.aw-current-weather-inner:after, div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather div.aw-current-weather-inner:before, div.aw-widget-current-inner div.aw-widget-content:after, div.aw-widget-current-inner div.aw-widget-content:before, div.aw-widget-current-inner:after, div.aw-widget-current-inner:before {
     content: "" !important;
-    display: table !important
+    display: block !important
 }
 
 div.aw-widget-36hour-inner div.aw-alert-info.aw-alert-alarm {
@@ -2159,13 +2155,18 @@ div.aw-widget-36hour-inner .video-still .vid-play-button {
 }
 
 div.aw-widget-current-inner {
+    /*
     max-width: 1200px !important;
+
     min-width: 85px !important;
+    */
     font-family: verdana, sans-serif;
     font-size: 10px !important;
     line-height: 1.5em !important;
     position: relative !important;
-    padding-bottom: 6px !important
+    padding-bottom: 6px !important;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 div.aw-widget-current-inner a {
@@ -2186,34 +2187,39 @@ div.aw-widget-current-inner a.aw-current-weather {
 
 div.aw-widget-current-inner div.aw-widget-content {
     color: #000 !important;
-    border: 2px solid #e9e9e9 !important
+    /*border: 2px solid #e9e9e9 !important*/
 }
 
 .icon-only div.aw-widget-current-inner div.aw-widget-content {
     border: none !important
 }
 
+/*NIGHTTIME WEATHER TEXT COLOR*/
 div.aw-widget-current-inner div.aw-widget-content.bg-cl, div.aw-widget-current-inner div.aw-widget-content.bg-cl a.aw-current-weather, div.aw-widget-current-inner div.aw-widget-content.bg-s, div.aw-widget-current-inner div.aw-widget-content.bg-s a.aw-current-weather {
-    color: #FFF !important
+    color: #ffffff !important;
+    text-shadow: 0 0 4px #000000;
 }
 
 .icon-only div.aw-widget-current-inner div.aw-widget-content.bg-cl, .icon-only div.aw-widget-current-inner div.aw-widget-content.bg-cl a.aw-current-weather, .icon-only div.aw-widget-current-inner div.aw-widget-content.bg-s, .icon-only div.aw-widget-current-inner div.aw-widget-content.bg-s a.aw-current-weather {
     color: #000 !important
 }
 
+/*DAYTIME WEATHER TEXT COLOR*/
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather {
     padding: 0 !important;
-    position: relative !important;
+    /*position: relative !important;*/
     text-decoration: none !important;
-    text-align: center !important;
-    color: #000 !important;
+    text-align: left !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 3px #000000;
     width: 100% !important
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather div.aw-current-weather-inner {
     max-width: 450px !important;
-    margin: 0 auto !important;
-    position: relative !important
+    margin: 0 !important;
+    position: relative !important;
+    left: 0;
 }
 
 .lt-479 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather div.aw-current-weather-inner {
@@ -2230,13 +2236,15 @@ div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather div.aw-cu
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather h3 {
+    position: relative;
     float: left !important;
     font-size: 18px !important;
     font-weight: 700 !important;
     margin: 0 !important;
-    padding: 50px 0 0 !important;
+    padding: 0px 0 0 !important;
     width: 40% !important;
-    line-height: normal !important
+    line-height: normal !important;
+    display: block;
 }
 
 .lt-479 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather h3 {
@@ -2264,13 +2272,14 @@ div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather h3 {
 }
 
 .icon-only div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather h3 {
-    display: none !important
+    display: block !important
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather span.aw-icon {
+    position: absolute;
     float: left !important;
-    width: 30% !important;
-    background-position: center center !important;
+    width: 135px !important;
+    background-position: right top !important;
     background-repeat: no-repeat !important;
     background-size: 180px auto !important;
     display: block !important;
@@ -2317,15 +2326,18 @@ div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather span.aw-i
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p {
+    position: absolute;
     float: left !important;
-    width: 30% !important
+    width: 20% !important;
+    display: block;
+    top: 80px;
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p time {
     font-size: 10px !important;
     display: block !important;
     margin-top: 4px !important;
-    text-align: center !important
+    text-align: left !important
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p time .lt-115 {
@@ -2340,14 +2352,13 @@ div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw
     display: block !important;
     font-size: 42px !important;
     line-height: 1em !important;
-    text-align: center !important;
+    text-align: left !important;
     padding-top: 16px !important
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-temperature-today b {
     font-weight: 400 !important;
     display: block !important;
-    padding-left: 12px !important
 }
 
 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-temperature-today sup {
@@ -2375,7 +2386,7 @@ div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw
     line-height: 1.5em !important;
     display: block !important;
     margin-top: 6px !important;
-    text-align: center !important
+    text-align: left !important
 }
 
 .icon-only div.aw-widget-current-inner a.aw-toggle, .icon-only div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-weather-description, .lt-115 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-weather-description {
@@ -2407,13 +2418,14 @@ div.aw-widget-current-inner a.aw-toggle {
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .15) !important;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .15) !important;
     position: absolute !important;
-    z-index: 10 !important;
+    z-index: 0 !important;
     width: 26px !important;
     height: 16px !important;
     background: #e9e9e9 !important;
     bottom: 0 !important;
-    right: 10px !important;
-    border: 1px solid #dcdcdc !important
+    left: 150px !important;
+    border: 1px solid #dcdcdc !important;
+    visibility: hidden;
 }
 
 div.aw-widget-current-inner a.aw-toggle:hover {
@@ -2471,7 +2483,6 @@ div.aw-widget-current-inner div.aw-get-widget-footer a.aw-get-this-widget {
     border-radius: 3px !important;
     background-color: #4769ba !important;
     background-repeat: repeat-x !important;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#617dc0), to(#4769ba)) !important;
     background-image: -moz-linear-gradient(#617dc0, #4769ba) !important;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #617dc0), color-stop(100%, #4769ba)) !important;
     background-image: -webkit-linear-gradient(#617dc0, #4769ba) !important;
@@ -2521,7 +2532,6 @@ div.aw-widget-current-inner div.aw-get-widget-footer a.aw-get-this-widget i.aw-g
 div.aw-widget-current-inner div.aw-get-widget-footer a.aw-get-this-widget:hover {
     background-color: #4769ba !important;
     background-repeat: repeat-x !important;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#7994d3), to(#4769ba)) !important;
     background-image: -moz-linear-gradient(#7994d3, #4769ba) !important;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7994d3), color-stop(100%, #4769ba)) !important;
     background-image: -webkit-linear-gradient(#7994d3, #4769ba) !important;

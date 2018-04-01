@@ -1,3 +1,38 @@
-.columns {
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.picture {
     height:100vh;
+}
+
+#instaPics {
+    position: absolute;
+    z-index: 1;
+    width: 10000px;
+
+}
+
+#credit {
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-shadow: 0 0 4px #000000;
+}
+
+div.aw-widget-current {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+div.aw-current-weather-inner {
+    position: relative;
 }
