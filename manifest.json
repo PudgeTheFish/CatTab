@@ -1,6 +1,23 @@
 {
+  "manifest_version": 2,
+  "version": "1.1.0",
   "name": "Cat Tab",
   "chrome_url_overrides" : {
-    "newTab": "index.html"
-  }
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "https://instareverseproxy.herokuapp.com/*",
+    "http://localhost/",
+    "tabs",
+    "activeTab"
+  ],
+  "description": "ADD DESCRIPTION",
+  "background": {
+    "scripts": ["js/weather.js", "js/instagramclient.js"],
+    "persistent": true
+  },
+  "content_security_policy": "script-src 'self' https://instareverseproxy.herokuapp.com/; object-src 'self'"
 }

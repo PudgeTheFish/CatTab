@@ -70,7 +70,7 @@ var lifestyleIndexToDFP = {
                     a.html(b.html);
                     x(f, a)
                 })
-            } else alert("It seems the widget code is incomplete. Please visit http://www.accuweather.com/en/free-weather-widgets to set up your free weather widget.")
+            }
         })
     }
 
@@ -606,7 +606,7 @@ var lifestyleIndexToDFP = {
     if (void 0 !== window.jQuery && window.jQuery.fn.jquery.match(/^1\.9/)) f = window.jQuery, G(); else {
         var l = document.createElement("script");
         l.setAttribute("type", "text/javascript");
-        l.setAttribute("src", "https://vortex.accuweather.com/adc2010/oap/javascript/jquery-1.9.1.min.js");
+        l.setAttribute("src", "js/jquery-1.9.1.min.js");
         l.readyState ? l.onreadystatechange = function () {
             "complete" != this.readyState && "loaded" != this.readyState || z()
         } : l.onload = z;
