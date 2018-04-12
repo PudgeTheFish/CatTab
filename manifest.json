@@ -16,7 +16,7 @@
   ],
   "description": "ADD DESCRIPTION",
   "background": {
-    "scripts": ["js/weather.js", "js/instagramclient.js"],
+    "scripts": ["js/instagramclient.js"],
     "persistent": true
   },
   "content_security_policy":
