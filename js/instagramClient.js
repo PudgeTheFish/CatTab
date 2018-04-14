@@ -41,7 +41,8 @@ arrayPets["birds"] = [
     ["1363072218", "royalbirdy"],
     ["1459744978", "capone_the_bird"],
     ["305843022", "rosiethelovie"],
-    ["5565285897", "puffie_the_chow"]
+    ["5565285897", "puffie_the_chow"],
+    ["250662721", "birdbee0705"]
 ];
 
 window.onload=function() {
@@ -73,6 +74,7 @@ chrome.storage.sync.get({"petType": defaultVal}, function(item) {
 
 //onClick function
 function changePet(type) {
+    closeMenu();
     chrome.storage.sync.set({"petType": type});
     loadPics(type);
     document.getElementById("instaPics").innerHTML = "";
@@ -118,7 +120,7 @@ function showDropdown() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-/*
+
 function closeMenu() {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
@@ -129,4 +131,3 @@ function closeMenu() {
         }
     }
 }
-*/

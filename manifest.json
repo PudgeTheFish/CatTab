@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
-  "version": "1.1.0",
-  "name": "Cat Tab",
+  "version": "1.1.5",
+  "name": "Pets Tab",
+  "description": "Replaces the new tab with Instagram pet pics! NOTE: You must be logged in to Instagram in Chrome for this extension to work.",
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },
@@ -10,11 +11,9 @@
     "webRequest",
     "webRequestBlocking",
     "https://www.instagram.com/*",
-    "http://localhost/",
     "tabs",
     "activeTab"
   ],
-  "description": "ADD DESCRIPTION",
   "background": {
     "scripts": ["js/instagramclient.js"],
     "persistent": true
