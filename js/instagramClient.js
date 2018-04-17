@@ -41,7 +41,6 @@ arrayPets["birds"] = [
     ["1363072218", "royalbirdy"],
     ["1459744978", "capone_the_bird"],
     ["305843022", "rosiethelovie"],
-    ["5565285897", "puffie_the_chow"],
     ["250662721", "birdbee0705"]
 ];
 
